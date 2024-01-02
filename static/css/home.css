@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(dark);
+    margin: 0px 0px;
+}
+
+
+
+/*
+    general
+*/
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.container>div {
+    width: 65%;
+}
+
+
+
+/*
+    perfil
+*/
+.profile-info {
+    padding: 5px 0;
+    display: flex;
+    background-color: beige;
+}
+
+.profile-info>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-image {
+    font-size: 35px;
+    margin-right: 5px;
+}
+
+.profile-status {
+    opacity: 0.6;
+    font-size: 11px;
+    margin-top: 3px;
+}
+
+
+
+/*
+    message
+*/
+.chat {
+    padding: 20px 0px;
+}
+
+.container-message {
+    display: flex;
+    align-items: end;
+}
+
+.container-message>div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.sended-message {
+    justify-content: end;
+}
+
+.received-message {
+    justify-content: start;
+}
+
+.received-profile-image {
+    margin-right: 5px;
+}
+
+.sended-profile-image {
+    margin-left: 5px;
+}
+
+.message-profile-image {
+    font-size: 35px;
+}
+
+.message-content {
+    background-color: darkcyan;
+    border-radius: 5px;
+    width: 30%;
+    padding: 5px;
+}
+
+.chat-form {
+    position: fixed;
+    bottom: 0;
+    width: 65%;
+}
+
+.chat-form>div {
+    display: flex;
+    justify-content: end;
+}
+
+.chat-input {
+    padding: 4px 8px;
+    width: 100%;
+    background: transparent;
+    border-radius: 2px;
+    outline: none;
+    border-bottom: solid 1px;
+}
+
+.chat-input::placeholder {
+    opacity: 0.3;
+}
+
+/* .chat-form-icon {
+    position: relative;
+} */
